@@ -17,7 +17,7 @@ assert convertToFahrenheit(0) == 32
 assert convertToFahrenheit(100) == 212
 assert convertToCelcuis(convertToFahrenheit(15)) == 15
     
-degreesCelcius = int(input("Celcuis: "))
+degreesCelcius = int(input("Input degrees Celcuis: "))
 print(f"Fahrenheit output: {convertToFahrenheit(degreesCelcius)}") # Prints the inputed amount of celcius in fahrenheit.
-degreesFahrenheit = int(input("Fahrenheit: "))
+degreesFahrenheit = int(input("Input degrees Fahrenheit: "))
 print(f"Celcuis output: {convertToCelcuis(degreesFahrenheit)}") # Prints the inputed amount of celcius in fahrenheit. 
